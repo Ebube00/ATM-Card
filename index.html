@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ATM Card</title>
+</head>
+<body>
+    <section>
+        <div class="divvv">
+            <div class="div">
+                <div class="div2">
+                    <label for="bName" class="name1">Bank Name:</label>
+                    <input type="text" class="bName" id="bName">
+                </div>
+                <div class="div2">
+                    <label for="name" class="name1">Name:</label>
+                    <input type="text" class="name" id="name">
+                </div>
+                <div class="div2">
+                    <label for="atm" class="name1">ATM Number:</label>
+                    <input type="text" class="atmN" id="atmN" maxlength="16">
+                </div>
+                <div class="div2">
+                    <label for="cvv" class="name1">CVV:</label>
+                    <input type="text" class="cvv" id="cvv" maxlength="3">
+                </div>
+                <div class="div2">
+                    <label for="eDate" class="name1">Expiry Date:</label>
+                    <input type="text" class="eDate" id="eDate" placeholder="00/00" maxlength="5">
+                </div>
+                <div class="div2">
+                    <button class="btn" id="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="divv">
+            <div class="div1">
+                <div class="div3">
+                    <p class="p">Debit Card</p>
+                    <p class="p" id="rBName">Bank Name</p>
+                </div>
+                <div class="div31">
+                    <img src="./atm-card-01-.jpg" alt="" class="img">
+                </div>
+                <div class="div32">
+                    <p class="p2" id="rAtmN">**** **** **** ****</p>
+                </div>
+                <div class="div33">
+                    <p class="p22" id="rCvv">***</p>
+                    <p class="221" id="rDate">00/00</p>
+                </div>
+                <div class="div34">
+                    <p class="p5" id="rName">card holder name</p>
+                    <img src="./atm-card-02-.jpg" alt="visa logo" class="img1">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
